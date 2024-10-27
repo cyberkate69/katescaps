@@ -47,7 +47,7 @@ h2 {
   margin-top: 25px;
   padding-left: 20px;
   text-align: center;
-  text-decoration: none; /* Removes underline from button text */
+  text-decoration: none;
 }
 
 .button1:hover {
@@ -55,7 +55,7 @@ h2 {
   color: rgb(255, 0, 221);
   background-color: black;
   border-color: rgb(255, 0, 221);
-  text-decoration: none; /* Ensures underline doesn’t appear on hover */
+  text-decoration: none;
 }
 
 .button1:active {
@@ -72,11 +72,6 @@ h2 {
   margin: 0 auto;
   font-size: 1em;
   text-align: center;
-  text-decoration: none; /* Ensures no underline on <h3> text */
-}
-
-/* Remove underline from links */
-a {
   text-decoration: none;
 }
 
@@ -93,22 +88,21 @@ a {
   }
 
   h1, h2 {
-    font-size: 1.5em;
-    margin-top: 20px;
-    margin-bottom: 40px;
+    font-size: 1.2em;
+    margin-top: 15px;
+    margin-bottom: 30px;
   }
 
   .button1 {
-    width: 90%;
+    width: 100%;
     height: auto;
-    padding: 15px 10px;
-    font-size: 18px;
-    text-align: center;
+    padding: 10px;
+    font-size: 16px; /* Smaller font size for mobile */
+    flex-direction: row;
   }
 
   .button1 img.self2 {
-    width: 50px;
-    margin-right: 10px;
+    width: 50px; /* Smaller image */
   }
 
   .button1 h3 {
